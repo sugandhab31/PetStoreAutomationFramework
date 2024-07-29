@@ -9,3 +9,7 @@ R
 "src/test/java/api/payload/Pet.java,e\9\e93b18aee694f368ab64675836f7c6abdaa36bc8
 T
 $src/test/java/api/payload/Store.java,9\8\98d757c9d6e98c58fd240fab71032e5f4947aee1
+^
+.src/test/java/api/endpoints/UserEndpoints.java,9\4\94f989698f6800324bf2dbebfe58bccadd9d704b
+T
+$src/test/java/api/test/UserTest.java,7\3\7333411bf431fc124049f85ba92ad9e3842084b8
