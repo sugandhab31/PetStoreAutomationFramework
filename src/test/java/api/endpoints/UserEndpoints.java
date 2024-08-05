@@ -1,6 +1,5 @@
 package api.endpoints;
 
-
 import api.payload.User;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -9,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class UserEndpoints {
 
-    public static Response createUser(User payload){
+    public Response createUser(User payload){
         RestAssured.baseURI = Routes.postCreateUser;
 
         RequestSpecification requestSpecification = RestAssured.given();
@@ -21,7 +20,7 @@ public class UserEndpoints {
         return response;
     }
 
-    public static Response getUser(String userName){
+    public Response getUser(String userName){
         RestAssured.baseURI = Routes.getUser;
 
         RequestSpecification requestSpecification = RestAssured.given();
@@ -33,7 +32,7 @@ public class UserEndpoints {
         return response;
     }
 
-    public static Response updateUser(User payload, String userName){
+    public Response updateUser(User payload, String userName){
         RestAssured.baseURI = Routes.postCreateUser;
 
         RequestSpecification requestSpecification = RestAssured.given();
@@ -46,7 +45,7 @@ public class UserEndpoints {
         return response;
     }
 
-    public static Response deleteUser(String userName){
+    public Response deleteUser(String userName){
         RestAssured.baseURI = Routes.getUser;
 
         RequestSpecification requestSpecification = RestAssured.given();

@@ -13,3 +13,9 @@ $src/test/java/api/payload/Store.java,9\8\98d757c9d6e98c58fd240fab71032e5f4947a
 .src/test/java/api/endpoints/UserEndpoints.java,9\4\94f989698f6800324bf2dbebfe58bccadd9d704b
 T
 $src/test/java/api/test/UserTest.java,7\3\7333411bf431fc124049f85ba92ad9e3842084b8
+Z
+*src/test/java/api/payload/petCategory.java,3\4\349dc86b41a3a5180fdc715c85c6fb4c7f7ee746
+V
+&src/test/java/api/payload/petTags.java,3\d\3d87ebc354c5516c9fe1969ba41d3aca4729749c
+V
+&src/test/java/org/example/AppTest.java,4\3\438c56474209176629917f1aaaac4e1cf31f765e
